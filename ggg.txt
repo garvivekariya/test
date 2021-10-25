@@ -7,6 +7,13 @@ GitHub allows multiple developers to work on a single project at the same time, 
 How Can GitHub Help My Team and Me?
 GitHub allows multiple developers to work on a single project at the same time, reduces the risk of duplicative or conflicting work, and can help decrease production time. With GitHub, developers can build code, track changes, and innovate solutions to problems that might arise during the site development process simultaneously. Non-developers can also use it to create, edit, and update website content, which Carpenter demonstrates in her tutorial.
 
-
 How Can GitHub Help My Team and Me?
 GitHub allows multiple developers to work on a single project at the same time, reduces the risk of duplicative or conflicting work, and can help decrease production time. With GitHub, developers can build code, track changes, and innovate solutions to problems that might arise during the site development process simultaneously. Non-developers can also use it to create, edit, and update website content, which Carpenter demonstrates in her tutorial.
+
+import random
+randomlist = []
+for i in range(0,5):
+n = random.randint(1,30)
+randomlist.append(n)
+print(randomlist)
+
